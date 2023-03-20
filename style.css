@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "IRANSansWeb";
+  src: url("IRANSansWeb-Medium.woff2") format("woff2"),
+    url("IRANSansWeb-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IRANSansWeb";
+  src: url("IRANSansWeb-Bold.woff2") format("woff2"),
+    url("IRANSansWeb-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: "IRANSansWeb";
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.main {
+  margin: 24px 32px;
+}
+
+.main > h1 {
+  margin-bottom: 16px;  
+} 
