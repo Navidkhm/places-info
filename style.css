@@ -62,5 +62,19 @@ h6 {
 }
 
 .main > h1 {
-  margin-bottom: 16px;  
-} 
+  margin-bottom: 16px;
+}
+
+.main li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .main > ul {
+    padding: 0 16px;
+  }
+}
+
+.text-small {
+  font-size: 13px;
+}
